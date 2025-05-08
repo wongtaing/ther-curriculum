@@ -66,6 +66,77 @@ The following general learning objectives might be helpful for thinking about th
 2. Be able to apply evidence and best-practice guidance regarding pharmacotherapy for the condition to individual patients
 3. Be able to individualise pharmacotherapy for the condition to key patient groups
 
+Some examples to get things started.
+
+*Chronic coronary disease*
+
+Students are expected to be able to:
+
+1. Evaluate pharmacotherapeutic management of secondary prevention following ACS
+1. Identify MOA, adverse effects and outcome evidence for statins, ACEI/ARB, betablockers, [more?]
+1. Evaluate cardiac risk
+
+*Dyslipidaemia*
+
+Students are expected to be able to:
+
+1. Describe treatment goals
+1. Evaluate cardiac risks including interpreting lab test
+1. Idenitfy MOA, adverse effect and outcome evidence for statins, ezitemide
+
+### Database
+
+The database is stored in a `yaml` file. This format allows use to store lists within lists in a plain text format.
+
+`yaml` is a markup language that is easily read and allows complex structures of dictionaries and lists. Hopefully the database is relatively self-explanatory
+
+```{yaml}
+
+- system: Cardiovascular conditions
+  tiers:
+  
+  - tier: 1
+    conditions:
+    
+    - name: Arrhythmias, atrial
+      subjects:
+      - PHRM2102
+      - PHRM3102
+    
+    - name: Chronic coronary disease (formerly stable ischemic heart disease)
+      subjects:
+      - PHRM2102
+      los:
+      - Evaluate pharmacotherapeutic management of secondary prevention following ACS
+      - Identify MOA, adverse effects and outcome evidence for statins, ACEI/ARB, betablockers, [more?]
+      - Evaluate cardiac risk
+```
+
+This snippet provides the first two conditions listed within cardiovascular conditions (system) in Tier 1: atrial arrhythmias and chronic coronary disease.
+
+The spacing and indents are important and provides a hierarchical structure, i.e. the indents indicate that the subjects listed below to Arrhythmia, atrial and Chronic coronary disease, respectively. 
+The learning objectives ("los") work in a similar way.
+
+Because this is in a hierarchical format, we will be able to filter and modify the database to answer specific questions: e.g. What are all the conditions covered in PHRM2102?
+
+Resources regarding `yaml` are easy to find: [example](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) and [wikipedia](https://en.wikipedia.org/wiki/YAML)
+
+#### Editing the database
+
+
+1. Edit online via github
+
+	The file is [here][therapeutics-curriculum.yaml]. You can edit it online via github. Instructions can be found [here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository).
+
+	I suspect you will need to create an account with github.
+
+1. Download and edit the file
+
+	You can download the current version of the file [here](therapeutics-curriculum.yaml) (look for "download icon")
+
+	While you don't need to, you can open and edit the file in any plain text editor (e.g. Notepad (PC), TextEdit (Mac); more sophisticated text editors, such as SublimeText, Notepad++, etc will provide additional tools such as syntax highlighting).
+
+	Once you have updated the file, send a copy to me.
 
 
 ## Bibliography
