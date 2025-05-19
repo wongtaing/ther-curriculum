@@ -953,6 +953,8 @@
       subjects:
       - PHRM3101
       - PHRM1102 (relevant to OTC)
+    los:
+      - Describe how to manage fever in a community pharmacy setting
     
     - name: Pain relief
       subjects:
