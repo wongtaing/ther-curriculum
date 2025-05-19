@@ -158,17 +158,34 @@
       subjects:
       - PHRM3101
       - PHRM1102
+    los:
+      - Understand the pathophysiology of AR
+      - Describe the classification of allergic rhinitis
+      - Describe the symptoms associated with intermittent and persistent allergic rhinitis 
+      - Identify OTC medications and classes used to manage allergic rhinitis and their safety considerations
+      - Explain the recommended management strategies for allergic rhinitis according to clinical guidelines 
+      - Describe when to refer to a Doctor/GP in community pharmacy 
     
     - name: Common cold
       subjects:
       - PHRM3101
       - PHRM1102
+    los:
+      - Describe the presentation/symptoms associated with the common cold
+      - Identify symptoms that may differentiate the common cold from more concerning presentations e.g. flu or COVID-19
+      - Identify OTC medications and classes used for the common cold and their safety considerations
+      - Understand the rationale and safety considerations when combining medicines for the common cold.
+      - Describe the non-pharmacological management of the common cold 
+      - Describe when to refer to a Doctor/GP in community pharmacy 
     
     - name: Cough
       subjects:
       - PHRM3101
       - PHRM1102
-    
+    los:
+     - Identify OTC medications used to manage cough and their safety considerations
+     - Describe the management of cough in community pharmacy and when to refer to a Doctor/GP
+     
     - name: Oral lesions (e.g., cold sores, aphthous ulcers)
       subjects:
       - PHRM3101
@@ -304,6 +321,8 @@
       subjects:
       - PHRM2101
       - PHRM1102
+      los:
+      - Recognise the importance of drug safety considerations for OTC medications during pregnancy and lactation
     
     - name: Menopausal symptoms
       subjects:
@@ -329,7 +348,12 @@
       subjects:
       - PHRM2101
       - PHRM1102 (dysmenorrhea - relevant to OTC)
-    
+     los:
+      - Describe presentation of Primary Dysmenorrhea
+      - Describe non-pharmacological and pharmacological management of Primary Dysmenorrhea in community pharmacy
+      - Understand when to treat, and when to refer Dysmenorrhea presentations in community pharmacy
+
+      
     - name: Other pregnancy-induced and chronic conditions (e.g., constipation, gastroesophageal
         reflux disease, nausea and vomiting, UTI)
       subjects:
@@ -435,6 +459,10 @@
       subjects:
       - PHRM3101
       - PHRM1102
+     los:
+      - Describe the presentation/symptoms associated with Influenza
+    
+    
     
     - name: Lower respiratory tract infections
       subjects:
@@ -475,7 +503,10 @@
       subjects:
       - PHRM3101 (I think PHRM3201 goes into the virus)
       - PHRM1102
-    
+     los:
+      - Describe the presentation/symptoms associated with COVID-19
+
+     
     - name: Fungal infections, invasive (e.g., endemic fungus, cryptococcosis, aspergillosis,
         hematogenous candidiasis, mucormycosis)
     
@@ -611,7 +642,12 @@
     - name: Soft tissue injuries (e.g., strains, sprains, myalgias)
       subjects:
       - PHRM1102 (OTC conditions)
-  
+   los:
+    - Understand the difference between a strain and sprain
+    - Understand when to treat, and when to refer activity or sports-related soft tissue injuries in community pharmacy
+    - Describe non-pharmacological and pharmacological management of activity or sports-related soft tissue injuries in community pharmacy
+
+   
   - tier: 2
     conditions:
     
@@ -634,20 +670,33 @@
     
     - name: Headache (e.g., tension-type, migraine, cluster)
       subjects:
-      - PHRM1102 (Migraine
-      - Tension + OTC treatment options). PHRM3102
+      - PHRM1102 (Migraine, Tension + OTC treatment options). 
+      - PHRM3102
+    los:
+     - Understand the difference between primary and secondary headaches
+     - Describe how tension aand migraine headaches present
+     - Describe non-pharmacological and pharmacological management of tension and migraine headaches in community pharmacy
+     - Recognise signs and symptoms indicative of a referral for headache presentations in community pharmacy
+     
     
     - name: Pain, neuropathic (e.g., diabetic, postherpetic)
       subjects:
       - PHRM2101
       - PHRM1102 (relevant to OTC)
       - PHRM3102
+    los:
+      - Describe the general management of neuropathic pain encountered in community pharmacy
+
+    Describe over-the-counter pain management in community pharmacy
     
     - name: Pain, nociceptive (acute and chronic)
       subjects:
       - PHRM2101
       - PHRM1102 (relevant to OTC)
       - PHRM3102
+    los:
+      - Describe how pain may be assessed and classified in community pharmacy
+      - Recognise suitable over-the-counter analgesics for common pain conditions encountered in community pharmacy
   
   - tier: 2
     conditions:
@@ -952,16 +1001,23 @@
     - name: Fever
       subjects:
       - PHRM3101
-      - PHRM1102 (relevant to OTC)
+      
     
     - name: Pain relief
       subjects:
       - PHRM1102 (relevant to OTC)
+    los:
+      - Identify over-the-counter analgesics available for pain relief in community pharmacy and outline their key safety considerations
+      
     
     - name: Pediatric drug dosing
       subjects:
       - PHRM1102
       - PHRM3102
+    los:
+      - Identify basic principles of paediatric drug dosing and calculate simple doses using weight or age-based methods
+      - Recognise common challenges in administering medicines to children and describe appropriate methods of administration for the paediatric population
+      - Identify and use reliable sources of paediatric drug information (e.g. AMH Children’s Dosing Companion) to support safe medicine use in children
   
   - tier: 2
     conditions:
